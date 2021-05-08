@@ -1,0 +1,12 @@
+.title{
+    text-align:center;
+}
+
+.meow-class, .loading , .mews{
+    width:50%;
+    margin: 0 auto;
+}
+
+.mews{
+    font-size: larger;
+}
