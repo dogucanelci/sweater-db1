@@ -3,7 +3,7 @@ console.log("Selamlar kedişler! :)");
 const form = document.querySelector("form");
 const load = document.querySelector(".loading");
 const mewselement = document.querySelector(".mews");
-const API_URL = 'https://sweater-db.herokuapp.com//mews';
+const API_URL = 'https://sweater-db.herokuapp.com/mews';
 //const API_URL = "https://sweater-db-dogucanelci.vercel.app || 'http://localhost:5000/mews'";
 load.style.display = "none";
 listAllmews();
