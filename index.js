@@ -5,7 +5,7 @@ const Filter = require("bad-words");
 const Rate_limit = require("express-rate-limit");
 const app = express();
 //const db = monk('localhost/meower');
-const db = monk("mongodb+srv://dogucanelci:******@sweater-database.zkaoj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority" || 'localhost/meower');
+const db = monk("mongodb+srv://dogucanelci:qweqweqwe123.@sweater-database.zkaoj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority" || 'localhost/meower');
 const mews = db.get('mews');
   // perform actions on the collection object
 const filter = new Filter();
